@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"><b>Portfolio</b> </div>
+      <div class="right">
+        <ul>
+          <li><a href='/'>Home</a></li>
+          <li><a href='/'>About</a></li>
+          <li><a href='/'>Services</a></li>
+          <li><a href='/'>Projects</a></li>
+          <li><a href='/'>Contact </a></li>
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi There, 
+        <br>
+        <div class="firstsection1">
+          This is <span class="purple">D Vaishnavi</span>
+        </div>
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn1"><b>Download Resume</b></button>
+          <button class="btn"><b>Visit Github</b></button>
+        </div>
+
+      </div>
+      <div class="rigthsection"><img src="d3.jpg" alt='logo' height="450" width="350"></div>
+    </section>
+
+    <hr>
+    <section class="secondsection">
+      <span class="text-gray">What I have done so far</span>
+      <h1> Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class='image-top' src="html.png" alt="" height="40" width="20">
+          <div class="vertical-title">
+            HTML (HyperText Markup Language)
+          </div>
+          <div class="vertical-desc">
+            HyperText Markup Language, is the standard markup language used to create and design documents on the World
+            Wide Web. It structures content on the web using a system of elements, each represented by tags, which
+            define the content's meaning and layout. HTML documents consist of nested elements forming a tree-like
+            structure. It covers various aspects, including text formatting, images, hyperlinks, forms, and more.
+            Browsers interpret HTML to render web pages, making it a foundational language for web development. HTML
+            evolves with standards like HTML5, introducing new features for enhanced web functionality and multimedia
+            integration.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class='image-top' src="css.png" alt="" height="40" width="20">
+          <div class="vertical-title">
+            CSS (Cascading Style Sheet)
+          </div>
+          <div class="vertical-desc">
+            Cascading Style Sheets, is a style sheet language used for describing the presentation of a document written
+            in HTML or XML. It enables web developers to control the layout, formatting, and appearance of multiple web
+            pages simultaneously. CSS works by selecting HTML elements and applying styles to them, such as defining
+            colors, fonts, spacing, and positioning. The "cascading" nature allows styles to be inherited or overridden,
+            providing flexibility and efficiency in design. CSS3, the latest version, introduces advanced features like
+            animations, transitions, and responsive design capabilities, enhancing the visual and interactive aspects of
+            web development.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class='image-top' src="js.png" alt="" height="40" width="40">
+          <div class="vertical-title">
+            JS (JavaScript)
+          </div>
+          <div class="vertical-desc">
+            JavaScript (JS) is a versatile programming language primarily used for web development. It enables dynamic
+            and interactive behavior within web pages. As a client-side scripting language, JS is executed by the user's
+            browser, enhancing user interfaces and allowing real-time updates. It supports event-driven programming and
+            can manipulate the Document Object Model (DOM), facilitating changes to page content and structure.
+            JavaScript is integral to modern web development, and frameworks like React, Angular, and Vue.js leverage
+            its capabilities for building robust and interactive web applications. With the rise of server-side
+            JavaScript (Node.js), it can also be used beyond the browser for server applications.
+          </div>
+        </div>
+        <div class="vertical">
+          <img class='image-top' src="developer.png" alt="" height="40" width="20">
+          <div class="vertical-title">
+            Web Developer(Beginner)
+          </div>
+          <div class="vertical-desc">
+            A web developer is a professional who designs and builds websites or web applications. Their role involves
+            working with various technologies, including HTML, CSS, and JavaScript, to create interactive and visually
+            appealing user interfaces. Web developers may specialize in front-end development, focusing on the user
+            experience and interface, or back-end development, dealing with server-side logic and databases. Full-stack
+            developers have expertise in both. They often use frameworks and libraries to streamline development and
+            ensure efficient, scalable, and maintainable code. Staying current with industry trends and continuously
+            learning new tools and technologies is crucial in this dynamic field. Collaboration with designers and
+            effective problem-solving are key aspects of a web developer's skill set.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>  Portfolio </h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          
+          <li>About</li>
+         
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          
+          <li>Services</li>
+         
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <ul>
+          
+          <li>Contact </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-rigths">
+      Copyrigth &#169; Vaishnaviportfolio.com | All rigths reserved
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['I Am Into Web Developing !'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
